@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Le Prix de l'Amour"
+  site-url: https://www.leprixdelamour.fr
+  page-navigation: true
+  favicon: "images/logo.jpg"
+  navbar:
+    left:
+      - text: "Dans la presse"
+        href: presse.qmd
+      - text: "Tribune"
+        href: tribune.qmd
+      - text: "Actions"
+        href: actions.qmd
+    right:
+      - text: "À propos"
+        href: about.qmd
+
+format:
+  html:
+    theme: quartz
+    css: styles.css
+
+editor: visual

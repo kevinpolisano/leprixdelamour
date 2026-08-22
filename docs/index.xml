@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Le Prix de l&#39;Amour</title>
+<link>https://www.leprixdelamour.fr/</link>
+<atom:link href="https://www.leprixdelamour.fr/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 31 Jan 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>«Je me sens mal…»</title>
+  <dc:creator>Nicolas </dc:creator>
+  <link>https://www.leprixdelamour.fr/posts/2022-02-01-Nicolas/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Je suis en couple depuis 15 ans et marié depuis 5 ans. Aujourd’hui je ne touche plus l’AAH. Je me sens mal de ne plus pouvoir travailler à cause de ma santé et mal de ne pas pouvoir participer financièrement aux dépenses de notre foyer.</p>
+<blockquote class="blockquote">
+<p>Psychologiquement cette situation me déprime et à deux c’est difficile de vivre avec un seul salaire.</p>
+</blockquote>
+<p>Je trouve cela vraiment honteux de prendre en compte le salaire du conjoint ou de la conjointe de la personne handicapée !</p>
+
+
+
+ ]]></description>
+  <category>dépression</category>
+  <category>fardeau</category>
+  <category>impossibilité de travailler</category>
+  <guid>https://www.leprixdelamour.fr/posts/2022-02-01-Nicolas/</guid>
+  <pubDate>Mon, 31 Jan 2022 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>«J’ai surtout le sentiment d’être juste un frein…»</title>
+  <dc:creator>Daniel </dc:creator>
+  <link>https://www.leprixdelamour.fr/posts/2022-02-01-Daniel/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Actuellement en situation de handicap dû à un trouble de panique avec agoraphobie, la plupart des interactions sociales sont très difficile pour moi, ce qui m’empêche totalement de travailler.</p>
+<p>En plus de mon handicap, ma situation financière est une source de stress et de déprime énorme pour moi car je suis actuellement obligé de vivre sur le dos de ma conjointe à seulement 23 ans… à cause du plafond couple de l’AAH. Le salaire de ma conjointe est pris en compte, et j’ai l’impression que mon handicap m’empêchera d’avoir une vie normale, sans avoir peur du lendemain. J’ai surtout le sentiment d’être juste un frein pour ma compagne car en plus de s’occuper de moi, elle doit aussi tout assumer seule financièrement.</p>
+<p>Alors doit-on choisir entre l’AAH et notre couple ?</p>
+
+
+
+ ]]></description>
+  <category>choix de vie</category>
+  <category>dépendance financière</category>
+  <category>fardeau</category>
+  <guid>https://www.leprixdelamour.fr/posts/2022-02-01-Daniel/</guid>
+  <pubDate>Mon, 31 Jan 2022 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
