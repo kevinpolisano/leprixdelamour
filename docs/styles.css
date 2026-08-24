@@ -2,8 +2,33 @@
 
 /*-- scss:rules --*/
 body {
-  background-image: linear-gradient(90deg, #000000, #dc307c);
+  background-image: linear-gradient(90deg, #F5ECDE,#F5ECDE);
 }
+
+body {
+  color: #000000;
+}
+
+h2, h3, h4, h5, h6,
+.listing-title, .listing-title a,
+.listing-author, .listing-date,
+.quarto-title-meta, .quarto-title-meta *,
+.quarto-listing a {
+  color: #000000 !important;
+}
+
+.listing-category {
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  background-color: transparent !important;
+}
+
+.listing-category:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
 
 .quarto-listing-default .listing-description {
   display: none;

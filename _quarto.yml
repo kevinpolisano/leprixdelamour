@@ -6,7 +6,7 @@ website:
   title: "Le Prix de l'Amour"
   site-url: https://www.leprixdelamour.fr
   page-navigation: true
-  favicon: "images/logo.jpg"
+  favicon: "images/logo.png"
   navbar:
     left:
       - text: "Dans la presse"
