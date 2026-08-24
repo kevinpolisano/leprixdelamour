@@ -29,6 +29,27 @@ h2, h3, h4, h5, h6,
   cursor: pointer;
 }
 
+blockquote {
+  color: #CE2651 !important;
+  font-size: 1.3em !important;
+  font-style: italic;
+  border-left: 4px solid #CE2651;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+.navbar,
+.navbar-brand,
+.navbar-nav {
+  background-color: #CE2651 !important;
+  background-image: none !important;
+}
+
+.quarto-title-block .quarto-title-banner,
+.quarto-title-banner {
+  background-color: #CE2651 !important;
+  background-image: none !important;
+}
 
 .quarto-listing-default .listing-description {
   display: none;
