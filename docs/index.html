@@ -84,7 +84,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -200,7 +201,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="MjAlMjBhbnMlMjBlbmZhbnQ=">20 ans enfant <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWNjZXNzaWJpbGl0JUMzJUE5">accessibilité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hvaXglMjBkZSUyMHZpZQ==">choix de vie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29sJUMzJUE4cmU=">colère <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29tcGVuc2F0aW9u">compensation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3IlQzMlQTlhbmNl">créance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZCVDMyVBOWNvaGFiaXRhdGlvbg==">décohabitation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGVtcGxveSVDMyVBOSUyMENBRg==">demployé CAF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJl">dépendance financière <span class="quarto-category-count">(7)</span></div><div class="category" data-category="ZCVDMyVBOXByZXNzaW9u">dépression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZCVDMyVBOXRyZXNzZQ==">détresse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlnbml0JUMzJUE5">dignité <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGl2b3JjZQ==">divorce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZG91YmxlJTIwcGVpbmU=">double peine <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZW5kZXR0ZW1lbnQ=">endettement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZW5mYW50cw==">enfants <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVNBVA==">ESAT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmFyZGVhdQ==">fardeau <span class="quarto-category-count">(5)</span></div><div class="category" data-category="aHVtaWxpYXRpb24=">humiliation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVy">impossibilité de travailler <span class="quarto-category-count">(5)</span></div><div class="category" data-category="aW5jb21wciVDMyVBOWhlbnNpb24=">incompréhension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5kJUMzJUE5cGVuZGFuY2U=">indépendance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mYW50aWxpc2F0aW9u">infantilisation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW5qdXN0aWNl">injustice <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aXNvbGVtZW50">isolement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bSVDMyVBOXByaXM=">mépris <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGF1dnJldCVDMyVBOQ==">pauvreté <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHIlQzMlQTljYXJpdCVDMyVBOQ==">précarité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJpc29ubmklQzMlQThyZQ==">prisonnière <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJpdmF0aW9u">privation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvamV0cw==">projets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2FjcmlmaWNlcw==">sacrifices <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cyVDMyVBOXBhcmF0aW9u">séparation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29saWRhcml0JUMzJUE5JTIwZmFtaWxpYWxl">solidarité familiale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhbmQtYnklMjBjYXJyaSVDMyVBOHJl">stand-by carrière <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3VpY2lkZQ==">suicide <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dmlvbGVuY2VzJTIwY29uanVnYWxlcw==">violences conjugales <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(27)</span></div><div class="category" data-category="MjAlMjBhbnMlMjBlbmZhbnQ=">20 ans enfant <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWNjZXNzaWJpbGl0JUMzJUE5">accessibilité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXV0b25vbWll">autonomie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hvaXglMjBkZSUyMHZpZQ==">choix de vie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29sJUMzJUE4cmU=">colère <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29tcGVuc2F0aW9u">compensation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3IlQzMlQTlhbmNl">créance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZCVDMyVBOWNvaGFiaXRhdGlvbg==">décohabitation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGVtcGxveSVDMyVBOSUyMENBRg==">demployé CAF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZCVDMyVBOXBlbmRhbmNl">dépendance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJl">dépendance financière <span class="quarto-category-count">(10)</span></div><div class="category" data-category="ZCVDMyVBOXByZXNzaW9u">dépression <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZCVDMyVBOXRyZXNzZQ==">détresse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlnbml0JUMzJUE5">dignité <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGl2b3JjZQ==">divorce <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZG91YmxlJTIwcGVpbmU=">double peine <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZW5kZXR0ZW1lbnQ=">endettement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZW5mYW50cw==">enfants <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RVNBVA==">ESAT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXN0aW1lJTIwZGUlMjBzb2k=">estime de soi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmFyZGVhdQ==">fardeau <span class="quarto-category-count">(7)</span></div><div class="category" data-category="aHVtaWxpYXRpb24=">humiliation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVy">impossibilité de travailler <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aW5jb21wciVDMyVBOWhlbnNpb24=">incompréhension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5kJUMzJUE5cGVuZGFuY2U=">indépendance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mYW50aWxpc2F0aW9u">infantilisation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW5qdXN0aWNl">injustice <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aXNvbGVtZW50">isolement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bSVDMyVBOXByaXM=">mépris <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGF1dnJldCVDMyVBOQ==">pauvreté <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGV1cg==">peur <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHIlQzMlQTljYXJpdCVDMyVBOQ==">précarité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJpc29ubmklQzMlQThyZQ==">prisonnière <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJpdmF0aW9u">privation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvamV0cw==">projets <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVub25jZW1lbnQlMjBhdSUyMGNvdXBsZQ==">renoncement au couple <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c2FjcmlmaWNlcw==">sacrifices <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cyVDMyVBOXBhcmF0aW9u">séparation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29saWRhcml0JUMzJUE5JTIwZmFtaWxpYWxl">solidarité familiale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhbmQtYnklMjBjYXJyaSVDMyVBOHJl">stand-by carrière <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3VpY2lkZQ==">suicide <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dHJpc3Rlc3Nl">tristesse <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlkJUMzJUE5bw==">vidéo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlvbGVuY2VzJTIwY29uanVnYWxlcw==">violences conjugales <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -694,7 +695,41 @@ Arthur
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="MjAlMjBhbnMlMjBlbmZhbnQlMkNjb21wZW5zYXRpb24lMkNkaXZvcmNlJTJDaW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVyJTJDcHJpdmF0aW9uJTJDc29saWRhcml0JUMzJUE5JTIwZmFtaWxpYWxl" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661606499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1109">
+<div class="quarto-post image-right" data-index="14" data-categories="YXV0b25vbWllJTJDZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJlJTJDZXN0aW1lJTIwZGUlMjBzb2k=" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787662410278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="thumbnail"><a href="./posts/2021-06-03-Geraldine/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-06-03-Geraldine/index.html" class="no-external">«Cela instaure un climat malsain au sein du couple, et prive chacun d’une grande part de liberté»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXV0b25vbWll'); return false;">autonomie</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJl'); return false;">dépendance financière</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXN0aW1lJTIwZGUlMjBzb2k='); return false;">estime de soi</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-06-03-Geraldine/index.html" class="no-external">
+Mon mari a 54 ans et perçoit l’AAH depuis quelques années.Quelle ne fut pas notre surprise en janvier quand celle-ci lui a été réduite de 220 euros par mois parce que j’ai…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-06-03-Geraldine/index.html" class="no-external">
+<div class="listing-date">
+Jun 3, 2021
+</div>
+<div class="listing-author">
+Géraldine
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="MjAlMjBhbnMlMjBlbmZhbnQlMkNjb21wZW5zYXRpb24lMkNkaXZvcmNlJTJDaW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVyJTJDcHJpdmF0aW9uJTJDc29saWRhcml0JUMzJUE5JTIwZmFtaWxpYWxl" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661606499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1109">
 <div class="thumbnail"><a href="./posts/2021-06-03-Frederic/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -734,7 +769,7 @@ Frédéric
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Y29sJUMzJUE4cmUlMkNkJUMzJUE5cGVuZGFuY2UlMjBmaW5hbmNpJUMzJUE4cmUlMkNkb3VibGUlMjBwZWluZSUyQ0VTQVQlMkNpbmp1c3RpY2U=" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661385710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
+<div class="quarto-post image-right" data-index="16" data-categories="Y29sJUMzJUE4cmUlMkNkJUMzJUE5cGVuZGFuY2UlMjBmaW5hbmNpJUMzJUE4cmUlMkNkb3VibGUlMjBwZWluZSUyQ0VTQVQlMkNpbmp1c3RpY2U=" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661385710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
 <div class="thumbnail"><a href="./posts/2021-06-03-Sylvie/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -772,7 +807,7 @@ Sylvie
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="ZCVDMyVBOXByZXNzaW9uJTJDc3VpY2lkZSUyQ3Zpb2xlbmNlcyUyMGNvbmp1Z2FsZXM=" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661841471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="597">
+<div class="quarto-post image-right" data-index="17" data-categories="ZCVDMyVBOXByZXNzaW9uJTJDc3VpY2lkZSUyQ3Zpb2xlbmNlcyUyMGNvbmp1Z2FsZXM=" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661841471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="597">
 <div class="thumbnail"><a href="./posts/2021-06-03-Catherine/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -806,7 +841,7 @@ Catherine
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="ZmFyZGVhdSUyQ2h1bWlsaWF0aW9uJTJDaW5mYW50aWxpc2F0aW9uJTJDc2FjcmlmaWNlcw==" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661727040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="407">
+<div class="quarto-post image-right" data-index="18" data-categories="ZmFyZGVhdSUyQ2h1bWlsaWF0aW9uJTJDaW5mYW50aWxpc2F0aW9uJTJDc2FjcmlmaWNlcw==" data-listing-date-sort="1622671200000" data-listing-file-modified-sort="1787661727040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="407">
 <div class="thumbnail"><a href="./posts/2021-06-03-Marie/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -842,8 +877,278 @@ Marie
 </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="19" data-categories="ZCVDMyVBOXByZXNzaW9uJTJDaW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVyJTJDaW5qdXN0aWNlJTJDcGV1cg==" data-listing-date-sort="1621634400000" data-listing-file-modified-sort="1787662590809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="thumbnail"><a href="./posts/2021-05-22-Marie/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-22-Marie/index.html" class="no-external">«Mon handicap est individuel, alors pourquoi l’allocation ne l’est pas ?»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOXByZXNzaW9u'); return false;">dépression</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW1wb3NzaWJpbGl0JUMzJUE5JTIwZGUlMjB0cmF2YWlsbGVy'); return false;">impossibilité de travailler</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW5qdXN0aWNl'); return false;">injustice</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGV1cg=='); return false;">peur</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-22-Marie/index.html" class="no-external">
+Âgée de 54 ans, je suis atteinte de polyarthrite psoriasique depuis une trentaine d’année. J’ai travaillé en m’adaptant et en diminuant peu à peu mon temps de travail. J’ai…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-22-Marie/index.html" class="no-external">
+<div class="listing-date">
+May 22, 2021
+</div>
+<div class="listing-author">
+Marie
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="ZmFyZGVhdSUyQ3BldXIlMkNwcm9qZXRz" data-listing-date-sort="1621634400000" data-listing-file-modified-sort="1787663509362" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
+<div class="thumbnail"><a href="./posts/2021-05-22-Alexia/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-22-Alexia/index.html" class="no-external">«Je veux pouvoir vivre avec le père de mon enfant !»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmFyZGVhdQ=='); return false;">fardeau</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGV1cg=='); return false;">peur</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvamV0cw=='); return false;">projets</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-22-Alexia/index.html" class="no-external">
+Aujourd’hui je vous ouvre mon cœur, je n’ai jamais témoigné jusque là. Je suis une personne handicapée et ça n’a jamais été facile, mon physique ne le montre pas forcément.…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-22-Alexia/index.html" class="no-external">
+<div class="listing-date">
+May 22, 2021
+</div>
+<div class="listing-author">
+Alexia
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="ZCVDMyVBOXBlbmRhbmNlJTJDaW5qdXN0aWNlJTJDc3VpY2lkZSUyQ3RyaXN0ZXNzZQ==" data-listing-date-sort="1621634400000" data-listing-file-modified-sort="1787662735329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="thumbnail"><a href="./posts/2021-05-22-Marie-Pierre/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-22-Marie-Pierre/index.html" class="no-external">«Être dépendante de l’être cher est trop injuste…»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOXBlbmRhbmNl'); return false;">dépendance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW5qdXN0aWNl'); return false;">injustice</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3VpY2lkZQ=='); return false;">suicide</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJpc3Rlc3Nl'); return false;">tristesse</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-22-Marie-Pierre/index.html" class="no-external">
+Je suis une personne comme tant d’autres en situation de handicap. Je percevais l’AAH à taux plein.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-22-Marie-Pierre/index.html" class="no-external">
+<div class="listing-date">
+May 22, 2021
+</div>
+<div class="listing-author">
+Marie-Pierre
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJlJTJDdmlkJUMzJUE5bw==" data-listing-date-sort="1621634400000" data-listing-file-modified-sort="1787663466448" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="thumbnail"><a href="./posts/2021-05-22-Christelle/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-22-Christelle/index.html" class="no-external">«Vivre en couple ou percevoir l’AAH : il faut choisir»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJl'); return false;">dépendance financière</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlkJUMzJUE5bw=='); return false;">vidéo</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-22-Christelle/index.html" class="no-external">
+
+
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-22-Christelle/index.html" class="no-external">
+<div class="listing-date">
+May 22, 2021
+</div>
+<div class="listing-author">
+Christelle
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="cHJvamV0cw==" data-listing-date-sort="1620943200000" data-listing-file-modified-sort="1787663806623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="thumbnail"><a href="./posts/2021-05-14-Albert/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-14-Albert/index.html" class="no-external">«Nous souhaitons nous marier ou nous pacser mais nous reportons cette idée…»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvamV0cw=='); return false;">projets</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-14-Albert/index.html" class="no-external">
+Nous sommes deux personnes handicapées en couple depuis 1 an et demi. Nous vivons ensemble depuis presque 2 ans (je l’ai d’abord hébergée).
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-14-Albert/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2021
+</div>
+<div class="listing-author">
+Albert
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="ZGlnbml0JUMzJUE5JTJDcmVub25jZW1lbnQlMjBhdSUyMGNvdXBsZQ==" data-listing-date-sort="1620943200000" data-listing-file-modified-sort="1787664088560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
+<div class="thumbnail"><a href="./posts/2021-05-14-Coralie/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-14-Coralie/index.html" class="no-external">«Je fais le choix de faire une croix sur une vie de famille…»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlnbml0JUMzJUE5'); return false;">dignité</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVub25jZW1lbnQlMjBhdSUyMGNvdXBsZQ=='); return false;">renoncement au couple</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-14-Coralie/index.html" class="no-external">
+Je suis une femme de 30 ans, j’ai l’AAH depuis mes 18 ans, car je suis née avec de gros soucis de santé.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-14-Coralie/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2021
+</div>
+<div class="listing-author">
+Coralie
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJlJTJDZGl2b3JjZSUyQ2ZhcmRlYXU=" data-listing-date-sort="1620943200000" data-listing-file-modified-sort="1787664415087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<div class="thumbnail"><a href="./posts/2021-05-14-Sylvie/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-14-Sylvie/index.html" class="no-external">«Je prendrai ma décision sur le divorce selon le vote du gouvernement»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZCVDMyVBOXBlbmRhbmNlJTIwZmluYW5jaSVDMyVBOHJl'); return false;">dépendance financière</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGl2b3JjZQ=='); return false;">divorce</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmFyZGVhdQ=='); return false;">fardeau</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-14-Sylvie/index.html" class="no-external">
+Je suis mariée depuis 2008, je suis tombée malade en 2007 (tumeur cérébrale à évolution lente). Mon mari a changé de travail en 2016 et tout a basculé pour le calcul de mon…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-14-Sylvie/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2021
+</div>
+<div class="listing-author">
+Sylvie
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="ZGlnbml0JUMzJUE5JTJDcmVub25jZW1lbnQlMjBhdSUyMGNvdXBsZQ==" data-listing-date-sort="1620943200000" data-listing-file-modified-sort="1787664230171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<div class="thumbnail"><a href="./posts/2021-05-14-Mimi/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2021-05-14-Mimi/index.html" class="no-external">«Je quitterai cette Terre pour que mon conjoint puisse vivre un peu…»</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlnbml0JUMzJUE5'); return false;">dignité</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVub25jZW1lbnQlMjBhdSUyMGNvdXBsZQ=='); return false;">renoncement au couple</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/2021-05-14-Mimi/index.html" class="no-external">
+Je viens déposer mon témoignage, sans raconter ma vie.Tous ceux qui sont comme moi comprendront pourquoi je ne veux pas me mettre à nu dans ce témoignage.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2021-05-14-Mimi/index.html" class="no-external">
+<div class="listing-date">
+May 14, 2021
+</div>
+<div class="listing-author">
+Mimi
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

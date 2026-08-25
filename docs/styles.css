@@ -24,7 +24,7 @@ h2, h3, h4, h5, h6,
 }
 
 .listing-category:hover {
-  background-color: #000000 !important;
+  background-color: #CE2651 !important;
   color: #ffffff !important;
   cursor: pointer;
 }
