@@ -51,6 +51,17 @@ blockquote {
   background-image: none !important;
 }
 
+.pagination .page-link {
+  color: #CE2651 !important;
+  border-color: #CE2651 !important;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #CE2651 !important;
+  border-color: #CE2651 !important;
+  color: #FFFFFF !important;
+}
+
 .quarto-listing-default .listing-description {
   display: none;
 }
