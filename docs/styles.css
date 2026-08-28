@@ -62,6 +62,17 @@ blockquote {
   color: #FFFFFF !important;
 }
 
+.content a,
+main a {
+  color: #CE2651 !important;
+}
+
+.content a:hover,
+main a:hover {
+  color: #CE2651 !important;
+  text-decoration: underline;
+}
+
 .quarto-listing-default .listing-description {
   display: none;
 }
