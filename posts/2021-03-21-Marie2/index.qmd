@@ -1,0 +1,8 @@
+---
+title: "«C’est moi qui suis handicapée, pas mon conjoint !»"
+author: "Marie"
+date: "2021-03-23"
+categories: [video]
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Il0bd657qrE?si=bmABrMhjsAjP_7wd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

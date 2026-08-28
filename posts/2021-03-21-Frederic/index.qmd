@@ -1,0 +1,8 @@
+---
+title: "«Je demande à être reconnu comme une personne à part entière»"
+author: "Frederic"
+date: "2021-03-23"
+categories: [video]
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/45ULZFJaOTo?si=0FU5tk2q49_xdGnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

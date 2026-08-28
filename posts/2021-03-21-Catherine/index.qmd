@@ -1,0 +1,8 @@
+---
+title: "«Mon mari doit prendre en charge mon handicap»"
+author: "Catherine"
+date: "2021-03-23"
+categories: [video]
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BVvCh66bdHg?si=oYYi7j8vpMc0a6UL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
