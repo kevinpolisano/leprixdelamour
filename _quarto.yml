@@ -13,11 +13,8 @@ website:
         href: presse.qmd
       - text: "Tribune"
         href: tribune.qmd
-      - text: "Actions"
-        href: actions.qmd
-    right:
-      - text: "À propos"
-        href: about.qmd
+      - text: "Le collectif"
+        href: collectif.qmd
 
 format:
   html:
