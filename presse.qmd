@@ -157,6 +157,8 @@ title: "Dans la presse"
 - Le Monde : [« Individualisation de l’allocation handicapés : nouveau rejet par les députés »](https://www.lemonde.fr/politique/article/2021/12/02/individualisation-de-l-allocation-handicapes-nouveau-rejet-par-les-deputes_6104520_823448.html) (02/12/2021)
 - **Revue La Déferlante : [« « J’ai dû renoncer à une vie de couple pour ne pas perdre mon allocation » »](https://revueladeferlante.fr/jai-du-renoncer-a-une-vie-de-couple-pour-ne-pas-perdre-mon-allocation/) (01/12/2021)**
 
+![](images/deferlante.jpg)
+
 ## Novembre
 
 - France Bleu : [« Handicap : une réforme pour améliorer l’autonomie des personnes handicapées »](https://www.francebleu.fr/infos/economie-social/handicap-une-reforme-pour-ameliorer-l-autonomie-des-personnes-handicapees-1638186653) (29/11/2021)
@@ -287,7 +289,6 @@ title: "Dans la presse"
 - Le Particulier : « [Pour bénéficier de l’AAH, il faut déclarer ses revenus à la CAF](https://leparticulier.lefigaro.fr/article/pour-beneficier-de-l-aah-il-faut-declarer-ses-revenus-a-la-caf) » (21/06/2021)
 - La Dépêche du Midi : « [Hautes-Pyrénées : Déconjugalisation de l’AAH, entre refus d’une mesure de justice sociale et déni de démocratie pour Jeanine Dubié](https://www.ladepeche.fr/2021/06/20/jeanine-dubie-deconjugalisation-de-laah-entre-refus-dune-mesure-de-justice-sociale-et-deni-de-democratie-9618100.php) » (20/06/2021)
 - La Dépêche : [« Gisèle Biémouret aux côtés des adultes handicapés à Condom »](https://www.ladepeche.fr/2021/06/20/gisele-biemouret-aux-cotes-des-adultes-handicapes-9618082.php) (20/06/2021)
-- **Communiqué de Presse de la Ville de Grenoble : [« Blocage de la proposition de loi sur l’individualisation de l’AAH »](https://leprixdelamour.fr/uploads/Externe/68/1194_714_CP-blocage-individualisation-AAH.pdf) (18/06/2021)**
 - Nice-Matin : [« L’AAH toujours liée aux revenus du conjoint: la colère d’un bénéficiaire azuréen »](https://www.nicematin.com/faits-de-societe/laah-toujours-liee-aux-revenus-du-conjoint-la-colere-dun-beneficiaire-azureen-696033) (18/06/2021)
 - France 3 : « [Allocation adulte handicapé : passage en force du gouvernement pour faire adopter le projet de loi](https://www.francetvinfo.fr/politique/jean-castex/gouvernement-de-jean-castex/allocation-adulte-handicape-passage-en-force-du-gouvernement-pour-faire-adopter-le-projet-de-loi_4669321.html) » (18/06/2021)
 - Charlie Hebdo : « [Allocation adulte handicapé : les handicapés sont les dernières roues du carrosse](https://charliehebdo.fr/2021/06/politique/allocation-adulte-handicape-les-handicapes-sont-les-dernieres-roues-du-carrosse/) » (18/06/2021)
@@ -320,7 +321,7 @@ title: "Dans la presse"
 - Faire Face « [AAH en couple : le Gouvernement passe en force pour rejeter la déconjugalisation](https://www.faire-face.fr/2021/06/17/aah-couple-gouvernement-force-rejeter-individualisation/) » (17/06/2021)
 - Numerama : [« Allocation adultes handicapés : non, notre « système informatique » n’est pas le problème »](https://www.numerama.com/politique/720319-allocation-adultes-handicapes-non-notre-systeme-informatique-nest-pas-le-probleme.html) (17/06/2021)
 - LCP : [« Individualisation de l’AAH. Le vote bloqué provoque la colère de l’opposition](https://lcp.fr/actualites/individualisation-de-l-aah-le-vote-bloque-provoque-la-colere-de-l-opposition-69779https://twitter.com/RomainDilleux/status/1405466576493682688) » (17/06/2021)
-- **Le Monde : » [La conjugalisation du calcul de l’Allocation adulte handicapé produit des effets inverses à ceux souhaités](https://www.lemonde.fr/idees/article/2021/06/17/la-conjugalisation-du-calcul-de-l-allocation-adulte-handicape-produit-des-effets-inverses-a-ceux-souhaites_6084485_3232.html) » (17/06/2021) [Liste des signataires de la Tribune](https://leprixdelamour.fr/tribune/)**
+- **Le Monde : » [La conjugalisation du calcul de l’Allocation adulte handicapé produit des effets inverses à ceux souhaités](https://www.lemonde.fr/idees/article/2021/06/17/la-conjugalisation-du-calcul-de-l-allocation-adulte-handicape-produit-des-effets-inverses-a-ceux-souhaites_6084485_3232.html) » (17/06/2021) [Liste des signataires de la Tribune](https://leprixdelamour.fr/tribune.html)**
 - Marianne : « [Vote bloqué sur l’allocation adulte handicapé : « LREM n’était pas sûre de ses députés](https://www.marianne.net/politique/gouvernement/allocation-adulte-handicape-vote-bloque-marcheurs-coinces) » (17/06/2021)
 - Le Parisien : « [Allocation adulte handicapé : le gouvernement passe en force à l’Assemblée](https://www.leparisien.fr/economie/allocation-adulte-handicape-le-gouvernement-passe-en-force-a-lassemblee-17-06-2021-XPTFLRRNK5GQXMX73VATXGSCSA.php) » (17/06/2021)
 - Handicap.fr : « [AAH : pourquoi les députés ont refusé l’individualisation?](https://informations.handicap.fr/a-aah-vote-deputes-couple-contre-31031.php) » (17/06/2021)
@@ -372,12 +373,6 @@ title: "Dans la presse"
 
 - Public Sénat : [« Philippe Mouiller dans Bonjour chez vous ! »](https://www.publicsenat.fr/emission/bonjour-chez-vous/philippe-mouiller-najat-vallaud-belkacem-188706) (27/04/2021)
 - **France 5 (L’œil et la main) : [« Aah, mon amour ? »](https://www.france.tv/france-5/l-oeil-et-la-main/2399259-aah-mon-amour.html) (26/04/2021)**
-
-![](images/Capture-décran-2021-04-27-à-10.00.34-1024x562.png)
-
-![](images/Capture-décran-2021-04-27-à-10.01.26-1024x595.png)
-
-![](images/Capture-décran-2021-04-27-à-10.02.04-1024x588.png)
 
 ![](images/Oeil-et-la-main-1024x537.png)
 
